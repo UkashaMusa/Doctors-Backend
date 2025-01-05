@@ -29,3 +29,4 @@ app.get('/',(req,res)=>{
 
 //listing to port number
 
+app.listen(port,()=>console.log(`server is runing on port ${port}`))
